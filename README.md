@@ -1,10 +1,10 @@
 # Master Prompt Engineering & AI Agents – Custom Solutions with Advanced AI
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Container-blue?logo=docker&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-API-green?logo=openai&logoColor=white)
-![Git](https://img.shields.io/badge/Git-Version%20Control-orange?logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-Editor-blue?logo=visual-studio-code&logoColor=white)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Docker](https://img.shields.io/badge/Docker-Container-blue?logo=docker&logoColor=white)](https://www.docker.com/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-API-green?logo=openai&logoColor=white)](https://platform.openai.com/)
+[![Git](https://img.shields.io/badge/Git-Version%20Control-orange?logo=git&logoColor=white)](https://git-scm.com/)
+[![VS Code](https://img.shields.io/badge/VS%20Code-Editor-blue?logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
 
 ---
 
