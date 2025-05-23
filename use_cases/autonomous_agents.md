@@ -32,11 +32,11 @@ print("Tendências:", buscar_tendencias())
 ```
 🔹 Resultado Esperado | Expected Result:
 
-* Inteligência artificial generativa.
+ * Inteligência artificial generativa.
+ 
+ * Computação quântica.
 
-* Computação quântica.
-
-* Realidade aumentada aplicada ao comércio.
+ * Realidade aumentada aplicada ao comércio.
 ---
 
 ## 🚀 Exemplo 2: Agente de Suporte ao Cliente | Example 2: Customer Support Agent
