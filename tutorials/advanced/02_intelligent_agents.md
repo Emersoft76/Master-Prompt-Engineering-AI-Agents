@@ -33,53 +33,49 @@ print("Notícias de IA:", buscar_noticias())
 ```
 🔹 Resultado Esperado | Expected Result:
 
-"Resumo: A IA está transformando o mundo, com impacto em saúde, finanças e educação."
+"Notícia 1: Nova IA revoluciona o diagnóstico médico."
+
+"Notícia 2: Ferramenta de IA melhora a análise de dados financeiros."
+
+"Notícia 3: IA generativa é usada para criar conteúdo educacional."
 
 ---
 
-## 🚀 Exemplo 2: Geração Contínua de Ideias | Example 2: Continuous Idea Generation
+## 🚀 Exemplo 2: Agente de Automação de Tarefas | Example 2: Task Automation Agent
 
 ### 🔹 Prompt:
-"Gere cinco ideias de negócios relacionados a IA."
+"Você é um assistente de IA que agenda compromissos automaticamente. Agende uma reunião para amanhã às 15:00."
 
-"Generate five business ideas related to AI."
+"You are an AI assistant that schedules appointments automatically. Schedule a meeting for tomorrow at 3:00 PM."
 
 ### 🔹 Código de Exemplo (Python) | Example Code (Python)
 ```python
-def gerar_ideias():
-    resposta = openai.Completion.create(
-        engine="text-davinci-003",
-        prompt="Liste cinco ideias de negócios com IA.",
-        max_tokens=100
-    )
-    return resposta.choices[0].text.strip()
+from datetime import datetime, timedelta
 
-print("Ideias de Negócios:", gerar_ideias())
+def agendar_reuniao():
+    data = datetime.now() + timedelta(days=1)
+    horario = "15:00"
+    return f"Reunião agendada para {data.strftime('%d/%m/%Y')} às {horario}."
+
+print(agendar_reuniao())
 ```
 🔹 Resultado Esperado | Expected Result:
 
- 1. Assistente virtual de atendimento ao cliente.
+"Reunião agendada para [DATA] às 15:00."
 
- 2. Ferramenta de diagnóstico médico com IA.
-
- 3. Plataforma de educação personalizada com IA.
-
- 4. Gerador de conteúdo para redes sociais.
-
- 5. Analisador de sentimentos em redes sociais.
 ---
 
-✅ Dicas para Automação | Automation Tips
+## ✅ Dicas para Agentes Inteligentes | Intelligent Agent Tips
 
-* Defina claramente o objetivo do texto a ser gerado.
+* Defina claramente a função do agente (busca, automação, controle).
 
-* Ajuste o max_tokens para controlar o tamanho da resposta.
+* Combine o uso de IA com bibliotecas externas (requests, datetime).
 
-* Use laços (loops) para gerar textos continuamente.
+* Garanta que o agente seja seguro e não execute ações perigosas automaticamente.
 
-* Clearly define the goal of the text to be generated.
+* Clearly define the agent's function (search, automation, control).
 
-* Adjust max_tokens to control response length.
+* Combine AI with external libraries (requests, datetime).
 
-* Use loops to continuously generate text.
+* Ensure the agent is secure and does not perform dangerous actions automatically.
 ---
