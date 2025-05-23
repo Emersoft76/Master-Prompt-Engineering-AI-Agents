@@ -30,29 +30,34 @@ This is a comprehensive and practical guide for learning and applying Prompt Eng
 
 ## 📂 Estrutura do Repositório | Repository Structure
 
-/Master-Prompt-Engineering-AI-Agents/
-├── 📄 README.md (Introdução bilíngue - PT/EN)
-├── 📄 LICENSE (Definição da licença do projeto)
-├── 📁 setup/ (Instalação e Configuração)
-│ ├── 📄 installation_guide.md (Guia passo a passo)
-│ └── 📁 environment/ (Configurações de ambiente)
-├── 📁 fundamentals/ (Conceitos Básicos)
-│ ├── 📄 introduction.md (Introdução ao Prompt Engineering e IA)
-│ └── 📄 glossary.md (Glossário de Termos - PT/EN)
-├── 📁 tutorials/ (Tutoriais Práticos)
-│ ├── 📁 beginner/ (Tutoriais Iniciais)
-│ ├── 📁 intermediate/ (Tutoriais Intermediários)
-│ └── 📁 advanced/ (Tutoriais Avançados)
-├── 📁 use_cases/ (Casos de Uso Práticos)
-│ ├── 📄 text_generation.md (Geração de Texto com IA)
-│ ├── 📄 image_generation.md (Geração de Imagens com IA)
-│ └── 📄 autonomous_agents.md (Agentes Inteligentes)
-├── 📁 resources/ (Recursos Adicionais)
-│ ├── 📄 links.md (Links Úteis)
-│ └── 📁 assets/ (Imagens, Banners, Badges)
-└── 📁 translations/ (Conteúdo Bilíngue)
-├── 📄 README_en.md (Versão em Inglês do README)
-└── 📁 tutorials_en/ (Tutoriais em Inglês)
+- [README.md](./README.md) – Introdução bilíngue (PT/EN)  
+- [LICENSE](./LICENSE) – Licença do projeto
+
+### `/setup/` – Instalação e Configuração  
+- [installation_guide.md](./setup/installation_guide.md) – Guia passo a passo  
+- `/environment/` – Configurações de ambiente
+
+### `/fundamentals/` – Conceitos Básicos  
+- [introduction.md](./fundamentals/introduction.md) – Introdução ao Prompt Engineering e IA  
+- [glossary.md](./fundamentals/glossary.md) – Glossário de termos (PT/EN)
+
+### `/tutorials/` – Tutoriais Práticos  
+- [`/beginner/`](./tutorials/beginner/) – Tutoriais Iniciais  
+- [`/intermediate/`](./tutorials/intermediate/) – Tutoriais Intermediários  
+- [`/advanced/`](./tutorials/advanced/) – Tutoriais Avançados
+
+### `/use_cases/` – Casos de Uso Práticos  
+- [text_generation.md](./use_cases/text_generation.md) – Geração de Texto com IA  
+- [image_generation.md](./use_cases/image_generation.md) – Geração de Imagens com IA  
+- [autonomous_agents.md](./use_cases/autonomous_agents.md) – Agentes Inteligentes
+
+### `/resources/` – Recursos Adicionais  
+- [links.md](./resources/links.md) – Links úteis  
+- [`/assets/`](./resources/assets/) – Imagens, Banners, Badges
+
+### `/translations/` – Conteúdo Bilíngue  
+- [README_en.md](./translations/README_en.md) – README em inglês  
+- [`/tutorials_en/`](./translations/tutorials_en/) – Tutoriais em inglês
 
 ---
 
